@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: auto;
+    padding: 15px;
+    background: #009933;
+    width: 80%;
+    overflow: hidden;
+    font-size: 20px;
+    border-bottom: 1px solid #009933;
+    border-radius: 5px;
+
+}
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.list{
+    display: inline-block;
+    color: white;
+    margin: 10px;
+    margin-left: 15px;
+}
+
+.logo{
+    float: left;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    text-decoration: underline;
+}
+
+section{
+    padding: 50px;
+}
+
+.formContainer{
+    position: fixed;
+    right: 0;
+    background-color: #009933BB;
+    max-width: 250px;
+    padding: 30px;
+}
+
+h3{
+    margin: 10px;
+}
+
+.location, #enviar, #name, #email,section{
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+}
+
+input[type='submit']{
+    color: silver;
+    background-color: #009933;
+    font-weight: bolder;
+}
+
+#gender{
+    margin-bottom: 10px;
+}
+
+main{
+    text-align: center;
+}
+
+.introduction{
+    margin-right: 20px;
+    width: 300px;
+    display: inline-block;
+    border: 3px solid royalblue;
+    border-radius: 3px;
+    font-size: 18px;
+
+}
+
+p{
+    margin: 1.5px;
+}
+
+footer{
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    color: white;
+    background-color: #009933;
+    border: 1px solid #009933;
+    border-radius: 5px;
+}
+
+.contato p, .contato h3{
+    text-align: center;
+    margin: auto;
+}
+
+.insta{
+    margin: auto;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration: none;
+    padding: 5px;
+    color: salmon;
+}

@@ -1,0 +1,95 @@
+.contato{
+    margin: 0;
+    background: wheat;
+}
+
+.header{
+    margin: auto;
+    padding: 15px;
+    background-color: seagreen;
+    width: 80%;
+    overflow: hidden;
+    font-size: 20px;
+    border-bottom: 1px solid seagreen;
+    border-radius: 5px;
+}
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.list{
+    display: inline-block;
+    margin: 10px;
+    margin-left: 15px;
+}
+
+.logo{
+    float: left;
+    text-decoration: underline;
+    font-family: 'Pacifico', cursive;
+}
+
+.card{
+    background-image: url('bd_card.png');
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 1px 20px;
+    background-size: cover;
+    margin: auto;
+    margin-top: 10%;
+}
+
+#nome{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(37, 37, 65);
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.redes{
+    font-size: 20px;
+    color:rgb(37, 37, 65);
+}
+
+#insta{
+    margin-top: 30px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    display: inline-block;
+    list-style: none;
+}
+
+#inst{
+    margin-top: 20px;
+    float: left;
+    width: 45px;
+    height: 45px;
+}
+
+#wpp{
+    float: left;
+    width: 45px;
+    height: 45px;
+}
+
+#whats{
+    float: left;
+    margin-top: 10px
+}
+
+a:start{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+
+}

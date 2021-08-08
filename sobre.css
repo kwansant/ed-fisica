@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+    background: seagreen;
+    overflow: hidden;
+    border: 1px solid seagreen;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.menu{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+.list{
+    display: inline-block;
+    margin: 10px;
+    margin-left: 15px;
+    color: white;
+}
+
+.logo{
+    float: left;
+    color: white;
+    font-family: 'Pacifico', cursive;;
+    text-decoration: underline;
+}
+
+#titulo{
+    margin-top: 50px;
+    margin-left: 170px;
+    width: 80%;
+    border: 5px groove slategray;
+    display: block;
+    text-align: center;
+}
+
+.apresentacao{
+    display: inline-block;
+    margin-left: 190px;
+    margin-top: 20px;
+}
+
+#foto{
+    float: left;
+    width: 190px;
+    height: 190px;
+    margin-right: 20px;
+}
+
+.conteudo, #nome{
+    font-size: 18px;
+    
+}
+
+#nome{
+    font-size: 25px;
+    font-weight: bolder;
+}
