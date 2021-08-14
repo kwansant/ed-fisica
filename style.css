@@ -41,6 +41,7 @@ section{
 }
 
 .formContainer{
+    margin-top: 10px;
     position: fixed;
     right: 0;
     background-color: #009933BB;
@@ -49,7 +50,9 @@ section{
 }
 
 h3{
-    margin: 10px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    margin-top: 5px;
 }
 
 .location, #enviar, #name, #email,section{
