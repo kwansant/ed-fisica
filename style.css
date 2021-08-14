@@ -60,8 +60,12 @@ h3{
     border: none;
 }
 
+ul{
+    list-style: none;
+}
+
 input[type='submit']{
-    color: silver;
+    color: white;
     background-color: #009933;
     font-weight: bolder;
 }
